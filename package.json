@@ -1,0 +1,13 @@
+{
+  "name": "private-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A web proxy on Cloudflare Workers that stores nothing.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

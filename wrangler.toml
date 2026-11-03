@@ -1,0 +1,10 @@
+name = "private-proxy"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+workers_dev = true
+keep_names = false
+
+# No logs. With this turned off, Cloudflare keeps no Worker logs for you to read,
+# and the code itself never calls console.log or writes to any storage.
+[observability]
+enabled = false
